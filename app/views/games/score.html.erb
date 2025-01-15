@@ -1,6 +1,7 @@
 <div class="container">
 <h3>******** Results ********</h3>
-<p>Your word: <%= params[:word]%></p>
+<p>Your word: <%= @user_input %></p>
+<p>Grid: <%= @grid %></p>
 <p>Score: <%= @message %></p>
 
 <%= link_to "Play again", new_path %>
